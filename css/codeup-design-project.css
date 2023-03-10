@@ -14,6 +14,19 @@ h4 {
     justify-content: center;
 }
 
+h4.last-tweet {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    height: 30px;
+    text-align: start;
+    justify-content: start;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
 body {
     font-family: 'Anton', sans-serif;
     background-color: #F0F0F0;
@@ -52,4 +65,50 @@ h5 {
 .row.secondColumn {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 720px){
+
+    .four-icon.row {
+        display: flex;
+        justify-content: center;
+    }
+
+    div .images.col {
+        /*display: flex;*/
+        margin-left: 40px;
+    }
+
+    .navbar-logo {
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .right-article.col.d-none.d-md-block {
+        display: flex;
+        display: none;
+    }
+
+    div .row.ps-2 {
+        display: flex;
+        max-width: 400px;
+    }
+
+    .navbar-logo {
+        display: flex;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+
+    .right-article.col.d-none.d-md-block {
+        display: flex;
+    }
 }
