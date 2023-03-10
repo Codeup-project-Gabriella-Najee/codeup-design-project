@@ -14,6 +14,19 @@ h4 {
     justify-content: center;
 }
 
+h4.last-tweet {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    height: 30px;
+    text-align: start;
+    justify-content: start;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
 body {
     font-family: 'Anton', sans-serif;
     background-color: #F0F0F0;
